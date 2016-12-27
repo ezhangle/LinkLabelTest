@@ -7,10 +7,9 @@ the [Revit API discussion forum](http://forums.autodesk.com/t5/revit-api/bd-p/16
 on [LinkLabel not working](http://forums.autodesk.com/t5/revit-api-forum/linklabel-not-working/m-p/6766584):
 
 **Question:** I have a form being shown inside Revit and I added a LinkLabel control but it's not being shown as a Link (it's all grey like the normal text). Also when I click on it nothing happens. I know the link is being created correctly because I tested the same code in a Windows Forms application. Does anyone know what happens with this control inside of Revit?
-I read [The Building Coder](http://thebuildingcoder.typepad.com) post
-on [](http://thebuildingcoder.typepad.com/blog/2015/02/from-hack-to-app-obj-mesh-import-to-directshape.html) and 
-[the is post](http://thebuildingcoder.typepad.com/blog/2015/02/from-hack-to-app-obj-mesh-import-to-directshape.html) and
-that person says that the LinkLabel control doesn't work for him either.
+I read [The Building Coder](http://thebuildingcoder.typepad.com)
+post [from hack to app &ndash; OBJ mesh import to DirectShape](http://thebuildingcoder.typepad.com/blog/2015/02/from-hack-to-app-obj-mesh-import-to-directshape.html) and 
+that person (Eric Boehlke) says that the LinkLabel control doesn't work for him either.
  
  **Answer:** I have no problem adding a working `LinkLabel` to a Windows Form displayed by an external Revit command.
  I just created a new add-in, added a new form to it, added a LinkLabel control to that, and implemented its `LinkClicked` event handler.
