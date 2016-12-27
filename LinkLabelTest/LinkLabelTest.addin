@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command LinkLabelTest</Text>
+    <Description>Some description for LinkLabelTest</Description>
+    <Assembly>LinkLabelTest.dll</Assembly>
+    <FullClassName>LinkLabelTest.Command</FullClassName>
+    <ClientId>cd61a795-b76e-4af2-a1b9-c238f618449e</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

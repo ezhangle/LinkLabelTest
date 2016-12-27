@@ -13,7 +13,6 @@ on [](http://thebuildingcoder.typepad.com/blog/2015/02/from-hack-to-app-obj-mesh
 that person says that the LinkLabel control doesn't work for him either.
  
  **Answer:** I have no problem adding a working `LinkLabel` to a Windows Form displayed by an exeternal Revit command.
- 
  I just created a new add-in, added the form to it, added a LinkLabel control, and implemented its OnClick event handler.
 
 
