@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle( "LinkLabelTest" )]
-[assembly: AssemblyDescription( "Revit Add-In Description for LinkLabelTest" )]
+[assembly: AssemblyDescription( "Revit .NET C# external command add-in displaying a LinkLabel control in a Windows form" )]
 [assembly: AssemblyConfiguration( "" )]
 [assembly: AssemblyCompany( "Autodesk Inc." )]
 [assembly: AssemblyProduct( "LinkLabelTest Revit C# .NET Add-In" )]

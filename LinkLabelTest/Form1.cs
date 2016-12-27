@@ -13,7 +13,9 @@ namespace LinkLabelTest
       InitializeComponent();
     }
 
-    private void linkLabel1_LinkClicked( object sender, LinkLabelLinkClickedEventArgs e )
+    private void linkLabel1_LinkClicked( 
+      object sender, 
+      LinkLabelLinkClickedEventArgs e )
     {
       Process.Start( "http://thebuildingcoder.typepad.com" );
     }
