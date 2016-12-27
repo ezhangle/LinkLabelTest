@@ -12,7 +12,7 @@ on [](http://thebuildingcoder.typepad.com/blog/2015/02/from-hack-to-app-obj-mesh
 [the is post](http://thebuildingcoder.typepad.com/blog/2015/02/from-hack-to-app-obj-mesh-import-to-directshape.html) and
 that person says that the LinkLabel control doesn't work for him either.
  
- **Answer:** I have no problem adding a working `LinkLabel` to a Windows Form displayed by an exeternal Revit command.
+ **Answer:** I have no problem adding a working `LinkLabel` to a Windows Form displayed by an external Revit command.
  I just created a new add-in, added a new form to it, added a LinkLabel control to that, and implemented its `LinkClicked` event handler.
 
 
